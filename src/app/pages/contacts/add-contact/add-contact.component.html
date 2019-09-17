@@ -1,0 +1,10 @@
+ <div class="card">
+  <div class="card-header">
+    <div class="utils__title">
+      <div><strong>New contact</strong></div>
+    </div>
+  </div>
+  <div class="card-body">
+   <app-contact-form   (onSubmit)="addContact($event)" (onCancel)="navigateToList()"></app-contact-form>
+  </div>
+</div> 

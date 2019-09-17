@@ -4,6 +4,10 @@
 
 export const environment = {
   production: false
+  , baseUri:'http://localhost:3000/',
+  token:'MY_SECRET_ENCRYPTED_TOKEN',
+  userName:'Admin',
+  version:'1.0.0'
 };
 
 /*
